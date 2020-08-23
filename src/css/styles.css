@@ -48,6 +48,14 @@ h1 {
 }
 
 /**
+ * Toggle menu
+ */
+ .offsite-is-open .offsite-container,
+ .offsite-is-open .site-container {
+   transform: translateX(14rem);
+ }
+
+/**
  * Menu button
  */
 button {
